@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(57, 79, 88);
+}
+
+
+Header{
+    background-color:rgb(114, 186, 189) ;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 600;
+    width: 100%;
+    height: 15px;
+    align-items: center;
+}
+
+
+
+.header h1{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.row{
+    padding:2rem;
+
+
+}
+
+.card{
+    padding: 0.5rem;
+    background-color: rgb(213, 238, 241);
+    margin-bottom: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: auto;
+}
+
+:hover .card{
+    box-shadow: rgba(178, 210, 240, 0.705) 0px 54px 55px, rgba(178, 210, 240, 0.705) 0px -12px 30px, rgba(178, 210, 240, 0.705) 0px 4px 6px, rgba(178, 210, 240, 0.705) 0px 12px 13px, rgba(178, 210, 240, 0.705) 0px -3px 5px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.footer{
+    background-color:rgb(114, 186, 189);
+    height: 40px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    align-items: center;
+    border-radius: 0;
+}
+
+
+@media (min-width: 576px) {
+    .row{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
